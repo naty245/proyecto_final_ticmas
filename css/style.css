@@ -1,0 +1,161 @@
+*{
+    font-family: Verdana, Roboto, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+
+.body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+}
+
+
+
+/*HEADER*/
+.bienvenida{
+    background-color: #D8A7B1;
+    color: rgb(31, 29, 29);
+    font-size: 90%;
+    text-align: center;
+}
+
+.nombre{
+    font-size: 1.5em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;   
+}
+
+.bienvenida-saludo{
+    padding-top: 2.5em;
+    padding-bottom: 3em;
+}
+
+.foto-perfil{
+    border-radius: 30%;
+    padding-top: 1.5em;
+    padding-bottom: 3%;
+}
+
+.icono{
+    display: flex;   
+}
+
+#icono-evento1,#icono-evento2, #icono-evento3{
+    background-color: #FAE8E0;
+    box-shadow: 5px  2px 2px #d45656; 
+    border-radius: 25%;
+    border-color:#EF7C8E;
+    color: rgb(78, 77, 77);
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: auto;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.fa-solid{
+    border-style: initial;
+    display:block;
+    margin: 20%;
+}
+
+#texto-oculto1, #texto-oculto2, #texto-oculto3{
+    display:none;
+}
+
+
+
+/*SECTION*/
+
+.conocimiento h2{
+    color:rgb(58, 56, 56); 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.lenguaje{
+    display:block;
+}
+
+.lenguaje-mostrar{
+    color: rgb(140, 0, 255);
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    margin: 15px 0 0 15px;
+    text-align:center;
+    
+    
+}   
+
+.presentacion-hago {
+    background-color: #EF7C8E;
+    border-radius: 25px;
+    color: rgb(78, 77, 77);
+    cursor: default; 
+    display:flex;
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+    padding-right:7%;   
+  }
+
+
+h2{
+    background-size: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    color: rgb(43, 37, 37);
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+  .skills{
+      margin-top: 2%;
+  }
+
+  .skills-lista{
+    color: rgb(78, 77, 77);
+    font-size: 1.3em;
+    margin-bottom: 6%;
+    margin-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    
+  }
+
+/*FOOTER*/
+  .final{
+      background-color:#FAE8E0 ;
+      box-shadow: 5px 5px 5px #d45656;
+      color: rgb(78, 77, 77);
+      font-size: 0.8em;
+      margin-bottom: 6%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      padding-left: 2%;
+      text-align: center;
+  }
